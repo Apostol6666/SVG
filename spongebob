@@ -1,0 +1,402 @@
+<!DOCTYPE!\>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+  <title> </title>
+  <link type="text/css" href="css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
+ 
+<script type="text/javascript">
+<!-- закрашивание ячеек таблицы -->
+    $(document).ready(function() {
+         $('.table-test-odd tr:odd').addClass('odd');
+         $('.table-test-odd tr:even').addClass('even');
+     });
+		 
+</script>
+	 
+  <style type ="text/css">
+  
+  body {
+   background-color:black;
+}
+
+.text {
+<!-- для неонового текста -->
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00, 0 0 150px #ffff00;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+	font-size:30px;
+	margin-bottom:0px;
+	paddin:2px;
+}
+
+.start {
+	width: 16%;
+}
+
+.firstrow {
+	width: 98%;  
+	height:300px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.tworow {
+     width: 66%;  
+	height:500px;
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-top:0%;
+}
+
+  .yau {
+  margin-bottom:28%;
+  }
+  
+  table {
+  color:white;
+  text-align:justify;
+  }
+  
+   .pers {
+  font-family:SimSun;
+	width: 16%;
+	margin: 10% 10% 100px 4%;
+  }
+  .pers h3 {
+  color:#ffffff;
+  text-transform: uppercase;
+  }
+  
+   td, th {
+    padding: 20px; 
+   }
+   
+ .odd {
+        background:#60f;
+        color:#e4e4e4;
+        }
+		
+.pers.sponge {
+ position: absolute;  
+    display: block;  
+	color: white;	
+    opacity: 0.4;  
+}	
+
+.ul {
+  text-align:justify;
+}
+
+.block {
+  width: 400px;
+  height: 120px;
+  background: #ff033e;
+  color:black;
+  margin: auto;
+  border-radius: 10px;
+  padding-top:50px;
+  margin-top: 60px;
+  font-family:SimSun;
+  text-align: center;
+  font-size:40px;
+}
+
+.first-block {
+  width: 600px;
+  height: 240px;
+  background-color: black;
+  color:#ff033e;
+  margin: auto;
+  padding-top:30px;
+  font-family:SimSun;
+  text-align: center;
+  font-size:40px;
+}
+
+.second-block {
+   width: 700px;
+   height: 200px;
+   background-color: black;
+   color:#ff033e;
+   margin: auto;
+   font-family:SimSun;
+   text-align: center;
+   font-size:40px; 
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.end, .last{
+  width: 800px;
+  height: 350px;
+  background-color: black;
+  color:#ff033e;
+  margin: auto;
+  font-family:SimSun;
+  text-align: center;
+  font-size:40px;
+}
+
+.last {
+  height: 350px;
+  width: 900px;
+  margin: auto;
+  font-size:45px;
+  font-family:SimSun;
+  text-align: center;
+}
+
+#mydiv
+{
+width:80px;
+height:80px;
+position:absolute;
+left:0; 
+background: url('image/y6.gif');
+}
+
+#test
+{
+ visibility: hidden;
+ position:absolute;
+ left:20;
+ top:50;
+ color:white;
+ font-family:SimSun;
+}
+
+h3 {
+  color:white;
+}
+
+.container {
+  padding: 10px;
+  text-align: center;
+}
+
+#rerun {
+  cursor: pointer;
+  color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00, 0 0 150px #ffff00;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+  </style>
+  
+ </head>
+ 
+ <body>
+ <div class="text" > <pre>
+				Are ya' ready, kids?
+ </div> </pre>
+ 
+ 
+ <div id="block">Hello!</div>
+ 
+ 
+ <div>
+		 <div class ="firstrow">
+		     <img class="start" src="image/sj2.gif"  width="270" height="700">
+			 <img class="yau" src="image/xw.gif" width="300" height="300" >
+			 <img class="yau" src="image/yB.gif" width="350" height="300" >
+			 <img class="yau" src="image/fxZj.gif" width="300" height="300" >
+			 <img class="start" src="image/sj2.gif"  width="270" height="700">
+		 </div>
+		 
+	 <div class="tworow">
+		 <img src="image/5SvC.gif" width="300" height="300" >
+		 <img src="image/6mp.gif" width="350" height="300" >
+		 <img src="image/y6.gif" width="300" height="300" >
+		</div>
+		
+		 </div>
+		 
+		  <div>
+<table>
+<!-- Здесь раскрашивание ячеек таблицы -->
+<tr class="odd">
+	<td class="pers">
+		<h3 class="sponge">SpongeBob SquarePants</h3>	
+		<p>SpongeBob SquarePants (voiced by Tom Kenny) is a yellow anthropomorphic sea sponge who physically resembles a rectangular cleaning sponge clad in brown short pants, a white collared shirt, and a red tie. He lives in a pineapple house and is employed as a fry cook at a fast food restaurant called the Krusty Krab. He diligently attends Mrs. Puff's Boating School but has never passed; his lack of a driver's license is a running gag throughout the series. He is relentlessly optimistic and enthusiastic toward his job and his friends. SpongeBob's hobbies include catching jellyfish, blowing bubbles, playing with his best friend Patrick, and unintentionally irritating his neighbor Squidward. He first appears in "Help Wanted". </p>
+	</td>
+	
+	<td class="pers">
+		<h3>Patrick Star</h3>
+		<p> Patrick Star (voiced by Bill Fagerbakke) is a pink starfish who lives under a rock and wears flowered swim trunks. His most prominent character trait is his extremely low intelligence. He is best friends with SpongeBob and often unknowingly encourages activities that get the two into trouble.While typically unemployed throughout the course of the series, Patrick holds various short-term jobs as the storyline of each episode requires. He is generally slow and easy-going but can sometimes get aggressive, much like real starfish. </p>
+	</td>
+</tr>
+
+<tr>
+	<td class="pers"> 
+	<h3>Squidward Tentacles</h3>
+	<p>Squidward Tentacles (voiced by Rodger Bumpass) is an octopus with a large nose who works as a cashier at the Krusty Krab. He is SpongeBob's next-door neighbor with a dry, sarcastic sense of humor.He believes himself to be a talented artist and musician, but nobody else recognizes his abilities. He plays the clarinet and often paints self-portraits in different styles, which he hangs up around his moai house. Although he does not like SpongeBob and Patrick, they are oblivious to his animosity and consider him a close friend. </p>	
+	</td>
+	<td class="pers">
+	<h3>Mr. Krabs </h3>	
+	<p> Eugene Krabs (voiced by Clancy Brown) is a red crab who owns and operates the Krusty Krab restaurant where SpongeBob works. He is self-content, cunning, and obsessed with the value and essence of money.[16] He lives in an anchor with his teenage daughter Pearl, who is a whale. He dislikes spending money but will go to great lengths to make Pearl happy.He tends to worry more about his riches than about the needs of his employees. Having served in the navy, he loves sailing, whales, sea shanties, and talking like a pirate. </p>	
+	</td>
+</tr>
+
+<tr class="odd">
+	<td class="pers"> 
+	<h3>Plankton and Karen</h3>	
+	<p>Sheldon Plankton (voiced by Mr. Lawrence) and Karen Plankton (voiced by Jill Talley) are the owners of the Chum Bucket, an unsuccessful restaurant located across the street from the Krusty Krab. Their business is a commercial failure because they sell mostly inedible foods made from chum. Plankton is a small planktonic copepod and the self-proclaimed archenemy of Mr. Krabs. He is a skilled inventor and possesses a Napoleon complex due to his short stature.Karen is Plankton's own invention, a waterproof supercomputer who supplies him with evil plans to steal Krabs' secret recipe for Krabby Patties.She is married to Plankton and usually takes residence in the Chum Bucket laboratory. </p>
+	</td>
+	<td class="pers">
+	<h3>Pearl Krabs </h3>	
+	<p> Pearl Krabs (voiced by Lori Alan) is a teenage sperm whale and Mr. Krabs' daughter.She wants to fit in with her fish peers, but finds this impossible to do because of the large size inherent to her species. She will inherit the Krusty Krab from her father when she grows older, but is still in high school and does not yet have a job at the family business. Pearl's favorite activities are working at the Bikini Bottom Mall, using her father's credit card to buy anything that is in style, and listening to pop music.</p>	
+	</td>
+</tr>
+
+<tr>
+	<td class="pers"> 	
+	<h3>Sandy Cheeks</h3>	
+	<p>Sandy Cheeks (voiced by Carolyn Lawrence) is a squirrel from Texas who lives in an air-filled glass dome and wears a diving suit to breathe underwater.Whenever any aquatic creatures enter her home, they must wear helmets of water. Sandy works as a scientist, explorer, and inventor. She is a rodeo champion with a number of athletic interests, such as "sand-boarding" and karate.She speaks with a Southern drawl and uses typical Southern slang words and phrases. </p>
+	</td>
+	<td class="pers">
+	<h3>Mrs. Puff </h3>	
+	<p>Mrs. Puff (voiced by Mary Jo Catlett) is a paranoid pufferfish who is SpongeBob's teacher at boating school, an underwater driver's education facility where students drive boats like cars. She wears a sailor suit and her school is made from a submerged lighthouse. SpongeBob is Mrs. Puff's most dedicated student and knows the answer to every question on her written and oral exams, but always panics and crashes when he actually boards a vessel.She puffs up into a ball when she is scared or injured. </p>	
+	</td>
+</tr>
+</table>
+</div>
+
+<!-- Появляющиеся значки -->
+  <div class="block hidden">Cartoon dignity  </div>
+  <div class="first-block hidden">Suitable for all
+  <p> <img src="image/prin-j.svg" width="100" height="100" >  
+ <img src="image/prin-pup.svg" width="100" height="100" >  
+ <img src="image/finn.svg" width="100" height="100" > </p>
+  </div>
+  <div class="second-block hidden">Like people of any age 
+  <p> <img src="image/ma.svg" width="100" height="100" > 
+<img src="image/bo.svg" width="100" height="100" > 
+<img src="image/li.svg" width="100" height="100" > 
+<img src="image/bab.svg" width="100" height="100" > 
+<img src="image/go.svg" width="100" height="100" >  </p>
+  </div>
+  <div class="end hidden">It warns of the dangers that may occur
+  <p> <img src="image/20dp.gif" width="200" height="180" >
+<img src="image/1wv.gif" width="200" height="180" >
+<img src="image/10Ql.gif" width="200" height="180" >
+  </p>
+  </div>
+  <div class="last hidden">Sometimes we need serenity and ignorance 
+    <p> <img src="image/RE5.gif" width="200" height="180" >
+<img src="image/sbg.gif" width="200" height="180" >
+<img src="image/GeR8.gif" width="200" height="180" >
+<img src="image/10Qd.gif" width="200" height="180" >
+  </p>
+  </div>
+  
+  <!-- Бесконечная анимация -->
+  <div id="mydiv">  
+</div>
+
+<p class ="text" id="test">
+ Aye Aye Captain!
+</p>
+
+<!--  svg анимация лодки -->
+ <div class="container" >
+    <h3 id="rerun">Sail away for a long time!</h3>
+<svg id="animate" width="600px" height="400px" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect fill="black" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <line stroke="#fff" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="244" x2="145.5" y1="198" x1="83.5" stroke-width="3" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="243" x2="369.5" y1="243" x1="145.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#fff" fill="none"/>
+  <line transform="rotate(-69 400.50000000000006,222.99999999999997) " stroke="#fff" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="246" x2="431.5" y1="200" x1="369.5" stroke-width="3" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="200" x2="433.5" y1="198" x1="83.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#fff" fill="none"/>
+  <line stroke="#fff" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="4.00001" x2="177.5" y1="197" x1="85.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="200" x2="253.5" y1="5" x1="176.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#fff" fill="none"/>
+  <line stroke="#fff" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="201" x2="175.5" y1="7" x1="175.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="317" x2="-70.5" y1="320" x1="-75.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <ellipse stroke="#fff" ry="13" rx="12.5" id="svg_9" cy="140" cx="345" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="153" x2="344.5" y1="200" x1="344.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="168" x2="346.5" y1="162" x1="328.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="162" x2="319.5" y1="175" x1="344.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="276" x2="265.5" y1="161" x1="328.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_17" y2="283" x2="215.5" y1="274" x1="266.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_18" y2="323" x2="289.5" y1="274" x1="266.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+  <line stroke="#fff" stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="323" x2="287.5" y1="282" x1="217.5" fill-opacity="null" stroke-opacity="null" stroke-width="3" fill="none"/>
+ </g>
+</svg>
+  </div>
+ 
+ <!-- для бегущего человечка снизу и появляющейся надписи сверху  -->
+ <script> 
+ var width = $(document).width() - $('#mydiv').width();
+$(document).ready(function() {
+
+    function animateMydiv() {
+        $('#mydiv').animate({
+                'left': width + 'px'
+            }, 9000,
+
+            function() {
+                $('#test').css({
+                    opacity: 1.0,
+                    visibility: "visible"
+                }, 9000).animate({
+                    opacity: 0
+                }, 9000);
+            }).animate({
+            'left': '0px'
+        }, 9000,animateMydiv);
+    }
+    animateMydiv();
+});
+
+<!-- для лодки - svg анимации -->
+var animate = new Vivus('animate', {
+  type: 'scenario',
+  duration: 80,
+  start: 'autostart'
+});
+
+document.getElementById("rerun").addEventListener("click", function(){
+  animate.stop().reset().play(2);
+});
+
+</script>
+ 
+<!--  для появляющихся значков -->
+<script>
+$(document).on("scroll", function() {
+  $('.hidden').each(function() {
+    if ($(this).position().top <= $(document).scrollTop() + $(window).height()) {
+      $(this).animate({
+        opacity: 1
+      }, 10000);
+    }
+  });
+});
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1656750-34', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+
+  </body> 
+ </html>
